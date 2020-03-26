@@ -12,7 +12,7 @@ this.capacidad=capacidadInicial;
 public void metodoComunitario(){
 // Comentario incluido para pruebas
 
-System.out.println("Antonio García Cabriada, David Gerena Comino");
+System.out.println("Antonio García Cabriada, David Gerena Comino, Patata");
 
 }
 
