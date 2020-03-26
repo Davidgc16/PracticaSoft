@@ -11,8 +11,7 @@ this.capacidad=capacidadInicial;
 // Aquí vendrán después los métodos creados en la siguiente fase
 public void metodoComunitario(){
 // Comentario incluido para pruebas
-
-System.out.println("Antonio García Cabriada, David Gerena Comino, Patata");
+System.out.println("Antonio Garcia Cabriada, David Gerena Comino, Patata, Maria Galvez Manceras ");
 
 }
 
