@@ -7,12 +7,7 @@ throw new RuntimeException("ERROR: no se pueden crear jarras " +"con capacidad m
 }
 this.capacidad=capacidadInicial;
 }
-public bool llena(){
-return this.cantidad=this.capacidad;
-}
-public bool vacia(){
-return this.cantidad=0;
-}
+
 // Aquí vendrán después los métodos creados en la siguiente fase
 public void metodoComunitario(){
 // Comentario incluido para pruebas
@@ -29,5 +24,11 @@ public String toString(){
 return ("("+this.capacidad+","+this.cantidad+")");
 }
 
+public bool llena(){
+return this.cantidad=this.capacidad;
+}
+public bool vacia(){
+return this.cantidad=0;
+}
 }
 
