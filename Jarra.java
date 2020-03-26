@@ -12,6 +12,7 @@ public void metodoComunitario(){
 // Comentario incluido para pruebas
 System.out.println("Aqui escribimos todos");
 }
+
 }
 
 public void llenaDesde(Jarra j){
@@ -22,4 +23,18 @@ j.cantidad--;
 }
 public String toString(){
 return ("("+this.capacidad+","+this.cantidad+")");
+}
+
+
+
+public int capacidad(){
+return this.capacidad;
+}
+public int cantidad(){
+return this.cantidad;
+}
+
+
+
+
 }
