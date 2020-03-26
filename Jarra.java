@@ -14,6 +14,7 @@ public void metodoComunitario(){
 System.out.println("Aqui escribimos todos");
 }
 
+<<<<<<< HEAD
 public void llenaDesde(Jarra j){
 while((this.cantidad<this.capacidad)&&(j.cantidad>0)){
 this.cantidad++;
@@ -32,3 +33,15 @@ return this.cantidad=0;
 }
 }
 
+=======
+public int capacidad(){
+return this.capacidad;
+}
+public int cantidad(){
+return this.cantidad;
+}
+
+
+
+}
+>>>>>>> capacidadCantidad
