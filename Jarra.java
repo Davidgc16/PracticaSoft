@@ -14,7 +14,7 @@ public void metodoComunitario(){
 
 
 
-System.out.println("Antonio Garcia Cabriada, David Gerena Comino, Patata, Maria Galvez Manceras ");
+System.out.println("Antonio Garcia Cabriada, David Gerena Comino, Maria Galvez Manceras ");
 
 
 }
