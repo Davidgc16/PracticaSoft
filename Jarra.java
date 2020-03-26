@@ -7,11 +7,15 @@ throw new RuntimeException("ERROR: no se pueden crear jarras " +"con capacidad m
 }
 this.capacidad=capacidadInicial;
 }
+
 // Aquí vendrán después los métodos creados en la siguiente fase
 public void metodoComunitario(){
 // Comentario incluido para pruebas
-System.out.println("Aqui escribimos todos");
-}
+
+
+
+System.out.println("Antonio Garcia Cabriada, David Gerena Comino, Patata, Maria Galvez Manceras ");
+
 
 }
 
@@ -23,6 +27,16 @@ j.cantidad--;
 }
 public String toString(){
 return ("("+this.capacidad+","+this.cantidad+")");
+}
+
+
+
+
+public bool llena(){
+return this.cantidad=this.capacidad;
+}
+public bool vacia(){
+return this.cantidad=0;
 }
 
 
