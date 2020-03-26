@@ -11,7 +11,7 @@ this.capacidad=capacidadInicial;
 // Aquí vendrán después los métodos creados en la siguiente fase
 public void metodoComunitario(){
 // Comentario incluido para pruebas
-System.out.println("Aqui escribimos todos");
+System.out.println("David Gerena Comina");
 }
 
 public void llenaDesde(Jarra j){
